@@ -1,0 +1,6 @@
+name: Docker Installer Download
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *' # 每5分钟执行一次
