@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *' # 每5分钟执行一次
-jobs:
-  my_job:
-    runs-on: centos-latest
-
-    steps:
-      - name: Run every 5 minutes
-        run: |
-          echo "This job runs every 5 minutes."
+#jobs:
+#  my_job:
+#    runs-on: centos-latest
+#
+#    steps:
+#      - name: Run every 5 minutes
+#        run: |
+#          echo "This job runs every 5 minutes."
